@@ -1,0 +1,98 @@
+/* .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  .about-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .about-photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  
+  .about-description-box {
+    height: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-left: 60px;
+    
+  }
+  
+  .about-description {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+   */
+
+   .about-container{
+    /* margin-top: 50px; */
+    margin-top: 120px;
+    margin-bottom: 50px;
+    /* background-image: url(https://img.freepik.com/free-vector/dark-blue-memphis-blog-banner-template_53876-98946.jpg?w=1380&t=st=1684503641~exp=1684504241~hmac=5970eeb7a0188240988ee4cfba8bed6798edb8a234412708ca4be23ea8411e39); */
+    min-height: 600px;
+   }
+
+   .about-photo-box{
+    display: inline-block;
+    align-items: center;
+    width: 30%;
+    height: 15%;
+   }
+   .about-photo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 100px;
+   }
+
+   .about-heading{
+    /* font-size: 40px;
+    font-weight: bold; */
+    text-align: left;
+    margin-left: 150px;
+    /* color: #d1d1e9; */
+    margin-top: 150px;
+   }
+   .about-description-box{
+    display: inline-block;
+    margin-top: 30px;
+    width: 50%;
+    height: 350px;
+    padding: 25px;
+    /* background-color: #f1f1f1; */
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-left: 60px;
+    /* border-color: #00ebc7; */
+    /* border-color: rgb(33, 1, 33); */
+    border-color: white;
+    border-style: solid;
+    color: aliceblue;
+   }

@@ -1,0 +1,82 @@
+/* .container {
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1684487743~exp=1684488343~hmac=77cfaf56bcb9dd5c51107bc46601554b0761a8bf58a9a4b0a5e32d24ebe9f6a4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+  }
+  
+  .content {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    right: 20%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    font-family: cursive;
+    color: black;
+  }
+   */
+
+/* actual code from here */
+
+/* .intro-container {
+    position: relative;
+    background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1380&t=st=1684487743~exp=1684488343~hmac=77cfaf56bcb9dd5c51107bc46601554b0761a8bf58a9a4b0a5e32d24ebe9f6a4);
+    background-color: #232946;  these two lines with background-image and #232964 has to be commented out;
+    background-color: #2b2c34;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    height: 500px;
+  }
+  
+  .intro-content {
+    margin: 15%,50%;  these two lines with margin and margin top has to be commented out
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    font-family: cursive;
+    color: white;
+  }
+
+#Description{
+  margin-top: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #f1f1f170;
+  height: 250px;  Comment out these two lines back-color and height
+}
+   */
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.firstSection>div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 2.5rem;
+  line-height: normal;
+  color: #5f81d3;
+}
+
+.rightSection img {
+  width: 80%;
+}
+
+.purple {
+  color: blueviolet;
+}
